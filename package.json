@@ -1,6 +1,6 @@
 {
   "name": "dsh-custom-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DeepSeek Harness plugin: Auto-discovery, Vision, Reasoning/Thinking Effort & Tool Calls for Custom Model APIs",
   "type": "module",
   "main": "lib/index.js",
