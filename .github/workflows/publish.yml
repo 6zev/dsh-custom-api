@@ -24,5 +24,8 @@ jobs:
         with:
           node-version: 22
 
+      - name: Upgrade npm to latest for Trusted Publisher OIDC support
+        run: sudo npm install -g npm@latest
+
       - name: Publish to npm (Trusted Publisher OIDC)
         run: npm publish --access public --provenance
