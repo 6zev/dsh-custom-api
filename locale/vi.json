@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tự động phát hiện & cấu hình Model Custom API",
+    "description": "Tự động phát hiện model từ Custom API và tự gắn vision, thinking/reasoning effort và tool calls."
+  }
+}

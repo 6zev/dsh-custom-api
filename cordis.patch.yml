@@ -1,0 +1,4 @@
+- insert:
+    - id: custom-model-discovery
+      name: dsh-custom-api
+      config: {}

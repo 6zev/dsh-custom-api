@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="24" height="24" rx="6" fill="url(#grad1)" />
+  <!-- Sparkle / Discovery icon -->
+  <path d="M12 4L13.5 9.5L19 11L13.5 12.5L12 18L10.5 12.5L5 11L10.5 9.5L12 4Z" fill="#ffffff" />
+  <!-- Eye / Vision hint -->
+  <circle cx="17.5" cy="6.5" r="1.5" fill="#fef08a" />
+  <!-- Tool / Brain node -->
+  <circle cx="6.5" cy="17.5" r="1.5" fill="#a7f3d0" />
+</svg>

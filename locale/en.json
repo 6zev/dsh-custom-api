@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Auto-Discovery & Capability Enhancer",
+    "description": "Automatically discovers custom API models and configures vision, reasoning/thinking effort, and tool calls."
+  }
+}

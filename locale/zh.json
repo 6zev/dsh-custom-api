@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "自定义 API 模型自动发现与能力增强",
+    "description": "自动发现自定义 API 端点模型，并自动挂载视觉 (Vision)、思考力度 (Thinking/Reasoning Effort) 与工具调用 (Tool Calls)。"
+  }
+}

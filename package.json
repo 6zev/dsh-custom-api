@@ -1,0 +1,47 @@
+{
+  "name": "dsh-custom-api",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: Auto-discovery, Vision, Reasoning/Thinking Effort & Tool Calls for Custom Model APIs",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "custom-api",
+    "models-dev",
+    "ai-models",
+    "vision",
+    "thinking-effort",
+    "reasoning"
+  ],
+  "author": "6zev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6zev/dsh-custom-api.git"
+  },
+  "homepage": "https://github.com/6zev/dsh-custom-api#readme",
+  "bugs": {
+    "url": "https://github.com/6zev/dsh-custom-api/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
