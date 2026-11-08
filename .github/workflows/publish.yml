@@ -22,12 +22,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-
-      - name: Verify Node and npm version
-        run: |
-          node -v
-          npm -v
+          node-version: 24
 
       - name: Publish to npm (Trusted Publisher OIDC)
-        run: npm publish --access public --provenance --loglevel silly
+        run: npx --yes npm@latest publish --access public --provenance --loglevel silly
